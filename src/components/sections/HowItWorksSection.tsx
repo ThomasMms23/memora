@@ -9,13 +9,13 @@ export function HowItWorksSection() {
     {
       icon: MousePointer2,
       title: "Sélectionnez",
-      description: "Surlignez n&apos;importe quel texte sur le web et faites clic droit pour accéder au menu Memora",
+      description: "Surlignez n'importe quel texte sur le web et faites clic droit pour accéder au menu Memora",
       step: 1
     },
     {
       icon: Save,
       title: "Sauvegardez",
-      description: "L&apos;IA analyse et enrichit votre citation instantanément",
+      description: "L'IA analyse et enrichit votre citation instantanément",
       step: 2
     },
     {
