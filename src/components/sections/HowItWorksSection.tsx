@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { MousePointer2, Save, Sparkles, Search } from "lucide-react";
+import Image from "next/image";
 
 export function HowItWorksSection() {
   const steps = [
@@ -82,10 +83,12 @@ export function HowItWorksSection() {
                       <div className="border-t border-gray-200 my-1"></div>
                       <div className="px-3 py-1 bg-[#7c3bed]/10 hover:bg-[#7c3bed]/20 flex items-center gap-2 text-xs text-[#7c3bed] font-medium cursor-pointer">
                         <div className="w-3 h-3 relative">
-                          <img 
+                          <Image 
                             alt="Memora Logo" 
                             className="object-contain w-full h-full" 
                             src="/Logo Memora.svg"
+                            width={12}
+                            height={12}
                           />
                         </div>
                         <span>Save to Memora</span>
