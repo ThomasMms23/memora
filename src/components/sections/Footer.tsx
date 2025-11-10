@@ -30,7 +30,7 @@ export function Footer() {
               <Mail className="w-6 h-6" />
             </a>
             <a 
-              href="https://github.com/memora" 
+              href="https://github.com/ThomasMms23" 
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-[#7c3bed] transition-colors duration-200"

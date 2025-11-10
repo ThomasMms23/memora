@@ -40,16 +40,23 @@ export function Header() {
             <Button 
               size="lg"
               className="bg-[#7c3bed] hover:bg-[#6929d4] text-white px-8 text-base font-semibold rounded-lg cursor-pointer"
-              aria-label="Installer l'extension Memora sur Chrome"
+              asChild
             >
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 mr-2">
-                <path d="M10.88 21.94 15.46 14"></path>
-                <path d="M21.17 8H12"></path>
-                <path d="M3.95 6.06 8.54 14"></path>
-                <circle cx="12" cy="12" r="10"></circle>
-                <circle cx="12" cy="12" r="4"></circle>
-              </svg>
-              Ajouter sur Chrome
+              <a 
+                href="https://chromewebstore.google.com/detail/memora-knowledge-manageme/maeafdobfcoofbkegpnkllmlbmpmlabe?hl=fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Installer l'extension Memora sur Chrome"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 mr-2">
+                  <path d="M10.88 21.94 15.46 14"></path>
+                  <path d="M21.17 8H12"></path>
+                  <path d="M3.95 6.06 8.54 14"></path>
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <circle cx="12" cy="12" r="4"></circle>
+                </svg>
+                Ajouter sur Chrome
+              </a>
             </Button>
           </motion.div>
         </div>

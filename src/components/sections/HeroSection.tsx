@@ -77,8 +77,16 @@ export function HeroSection() {
             <Button 
               size="lg" 
               className="bg-[#7c3bed] hover:bg-[#6929d4] text-white px-8 text-base font-semibold rounded-lg cursor-pointer"
+              asChild
             >
-              Installer l&apos;extension
+              <a 
+                href="https://chromewebstore.google.com/detail/memora-knowledge-manageme/maeafdobfcoofbkegpnkllmlbmpmlabe?hl=fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Installer l'extension Memora sur Chrome"
+              >
+                Installer l&apos;extension
+              </a>
             </Button>
           </motion.div>
         </motion.div>
